@@ -1,0 +1,25 @@
+.timerTab {
+    border: none;
+    background-color: transparent;
+    color: var(--color-text-primary);
+    font-size: 18px;
+    font-weight: 200;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.active {
+    background-color: var(--color-primary);
+}
+
+.timerTab:disabled {
+    cursor: not-allowed;
+    opacity: 1;
+}
+
+@media (max-width: 991px) {
+    .timerTab {
+        font-size: 14px;
+    }
+}

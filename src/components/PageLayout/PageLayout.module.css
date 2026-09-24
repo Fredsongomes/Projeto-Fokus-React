@@ -1,0 +1,36 @@
+.pageLayout {
+    background: url("/pattern.png"), var(--gradient-current);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.skipLink {
+    position: absolute;
+    top: -100px;
+    left: 16px;
+    padding: 8px 16px;
+    background: var(--color-text-primary);
+    color: var(--color-text-dark);
+    text-decoration: none;
+    border-radius: 4px;
+    z-index: 100;
+}
+
+.skipLink:focus {
+    top: 16px;
+}
+
+.focus {
+    --gradient-current: var(--gradient-mode-1);
+}
+
+.shortBreak {
+    --gradient-current: var(--gradient-mode-2);
+}
+
+.longBreak {
+    --gradient-current: var(--gradient-mode-3);
+}

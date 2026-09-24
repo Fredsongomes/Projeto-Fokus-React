@@ -1,0 +1,11 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading {
+    font-size: 26px;
+    font-weight: 400;
+    margin: 0;
+}

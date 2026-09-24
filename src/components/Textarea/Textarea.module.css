@@ -1,0 +1,17 @@
+.textarea {
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+    padding: 8px;
+    background: var(--color-surface-input);
+    font-family: var(--font-family-base);
+    font-size: 20px;
+    color: var(--color-text-dark);
+    resize: vertical;
+    min-height: 96px;
+}
+
+.textarea::placeholder {
+    color: var(--color-text-dark);
+    opacity: 0.65;
+}

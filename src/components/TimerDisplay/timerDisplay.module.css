@@ -1,0 +1,18 @@
+.timerDisplay {
+    color: var(--color-text-primary);
+    font-size: 120px;
+    text-align: center;
+    line-height: 100%;
+    padding: 32px 0;
+    font-weight: 600;
+}
+
+.timerTime {
+    font-family: var(--font-family-display);
+}
+
+@media (max-width: 991px) {
+    .timerTime {
+        font-size: 84px;
+    }
+}

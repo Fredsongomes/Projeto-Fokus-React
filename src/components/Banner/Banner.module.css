@@ -1,0 +1,27 @@
+.banner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    line-height: 120%;
+    font-size: 60px;
+    font-weight: 100;
+    color: var(--color-text-primary);
+    max-width: 482px;
+}
+
+.highlight {
+    font-weight: 600;
+ }
+
+@media (max-width: 991px) {
+    .banner {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .title {
+        font-size: 36px;
+    }
+}

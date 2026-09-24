@@ -1,0 +1,12 @@
+.tabs {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 991px) {
+    .tabs {
+        gap: 8px;
+    }
+}

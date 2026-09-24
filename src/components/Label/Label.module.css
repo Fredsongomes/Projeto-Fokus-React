@@ -1,0 +1,7 @@
+.label {
+    display: block;
+    font-family: var(--font-family-display);
+    font-size: 26px;
+    color: var(--color-text-dark);
+    margin-bottom: 32px;
+}

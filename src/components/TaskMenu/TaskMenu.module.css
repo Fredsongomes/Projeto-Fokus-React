@@ -1,0 +1,36 @@
+.taskMenu {
+    position: relative;
+}
+
+.trigger {
+    list-style: none;
+    cursor: pointer;
+    color: var(--color-accent-soft);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    border-radius: 50%;
+}
+
+.trigger::-webkit-details-marker {
+    display: none;
+}
+
+.trigger::marker {
+    display: none;
+}
+
+.list {
+    position: absolute;
+    top: calc(100% + 8px);
+    right: 0;
+    min-width: 240px;
+    margin: 0;
+    padding: 16px;
+    list-style: none;
+    background: var(--color-surface-menu);
+    border: 2px solid var(--color-primary);
+    border-radius: 8px;
+    z-index: 10;
+}

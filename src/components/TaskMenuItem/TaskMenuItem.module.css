@@ -1,0 +1,22 @@
+.item + .item {
+    margin-top: 16px;
+}
+
+.button {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    color: var(--color-text-primary);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 14px;
+    text-align: left;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+.button:hover {
+    background-color: var(--color-surface-menu-hover);
+}

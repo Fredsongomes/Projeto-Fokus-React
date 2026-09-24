@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prata&family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    /* Base palette */
+    --color-white: #fff;
+    --color-deep-blue: #01080E;
+    --color-navy: #041832;
+    --color-royal-blue: #144480;
+    --color-azure: #1875E9;
+    --color-teal: #0F725C;
+    --color-deep-purple: #8B1FF8;
+    --color-lilac: #B872FF;
+    --color-mint: #00F4BF;
+    --color-gray: #98A0A8;
+    --color-graphite: #1B293B;
+    --color-jet: #010B15;
+
+    /* Semantic */
+    --color-text-primary: var(--color-white);
+    --color-text-dark: var(--color-deep-blue);
+    --color-text-muted: rgba(182, 182, 182, 0.8);
+    --color-primary: var(--color-royal-blue);
+    --color-accent: var(--color-deep-purple);
+    --color-accent-soft: var(--color-lilac);
+    --color-success: var(--color-mint);
+
+    /* Surfaces */
+    --color-surface-timer: rgba(20, 68, 128, 0.30);
+    --color-surface-task: rgba(255, 255, 255, 0.50);
+    --color-surface-task-complete: rgba(0, 244, 191, 0.40);
+    --color-surface-input: var(--color-gray);
+    --color-surface-menu: var(--color-graphite);
+    --color-surface-menu-hover: rgba(20, 68, 128, 0.30);
+    --color-surface-footer: var(--color-jet);
+    --color-surface-accent-soft: rgba(184, 114, 255, 0.12);
+
+    /* Shadows */
+    --color-shadow-inner-light: rgba(255, 255, 255, 0.18);
+    --color-shadow-inner-dark: rgba(0, 0, 0, 0.2);
+    --color-shadow-drop: rgba(0, 0, 0, 0.6);
+
+    /* Gradients */
+    --gradient-mode-1: linear-gradient(to bottom, var(--color-deep-purple) 0%, var(--color-navy) 48%, var(--color-deep-blue) 100%);
+    --gradient-mode-2: linear-gradient(to bottom, var(--color-teal) 0%, var(--color-navy) 48%, var(--color-deep-blue) 100%);
+    --gradient-mode-3: linear-gradient(to bottom, var(--color-azure) 0%, var(--color-navy) 48%, var(--color-deep-blue) 100%);
+    --gradient-button: linear-gradient(to right, var(--color-lilac), var(--color-royal-blue));
+
+    /* Typography */
+    --font-family-base: 'Montserrat', sans-serif;
+    --font-family-display: 'Unbounded', cursive;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    font-family: var(--font-family-base);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-family-display);
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    margin: 0;
+}

@@ -1,0 +1,54 @@
+.item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px;
+    border-radius: 8px;
+    background: var(--color-surface-task);
+    cursor: pointer;
+}
+
+.complete {
+    background: var(--color-surface-task-complete);
+    cursor: default;
+}
+
+.active {
+    border: 2px solid var(--color-text-primary);
+}
+
+.status {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    padding: 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: inherit;
+}
+
+.description {
+    flex-grow: 1;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--color-text-dark);
+}
+
+.edit {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    color: var(--color-text-dark);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.edit:disabled {
+    color: var(--color-gray);
+    opacity: 0.8;
+    cursor: not-allowed;
+}
